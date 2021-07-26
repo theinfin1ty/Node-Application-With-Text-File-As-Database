@@ -7,7 +7,7 @@ app.use(express.json());
 
 const employeeRoutes = require('./routes/employee');
 
-app.use('/employee', employeeRoutes);
+app.use('/employees', employeeRoutes);
 
 app.all('*', (req, res, next) => {
     next(new ExpressError('Page Not Found'), 404);
