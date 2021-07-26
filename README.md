@@ -29,6 +29,6 @@ APIs working in this application are listed as follows:
 
 |API                               | Request      | Operation
 | -------------------------------- | ------------ | ------------------------------------
-|```/employee```                           | ```GET```    | Show the record of all the employees from file 
-|```/employee```                   | ```POST```    | Add a new employee record to the file
-|```/employee/:id```                   | ```GET```   | Show details of a specific employee
+|```/employees```                           | ```GET```    | Show the record of all the employees from file 
+|```/employees```                   | ```POST```    | Add a new employee record to the file
+|```/employees/:id```                   | ```GET```   | Show details of a specific employee
